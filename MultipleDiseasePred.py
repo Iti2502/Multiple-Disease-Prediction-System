@@ -3,9 +3,9 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 # loading the saved models
-diabetes_model = pickle.load(open('C:/Users/Iti Sharma/PycharmProjects/machine learning/Multiple Disease Prediction/diabetes.sav', 'rb'))
-heart_disease_model = pickle.load(open('C:/Users/Iti Sharma/PycharmProjects/machine learning/Multiple Disease Prediction/heartdisease.sav', 'rb'))
-parkinsons_model = pickle.load(open('C:/Users/Iti Sharma/PycharmProjects/machine learning/Multiple Disease Prediction/parkinsons.sav', 'rb'))
+diabetes_model = pickle.load(open('diabetes.sav', 'rb'))
+heart_disease_model = pickle.load(open('heartdisease.sav', 'rb'))
+parkinsons_model = pickle.load(open('parkinsons.sav', 'rb'))
 
 
 # sidebar for navigation
